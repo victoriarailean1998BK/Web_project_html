@@ -1,0 +1,102 @@
+/*Common nav styles */
+.navigtion_wrapper{
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /*Flexbox container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+.navigtion_wrapper > .left_column{
+    display: flex;
+    align-items: center;
+}
+.navigtion_wrapper > .left_column > .icon{
+    margin-right: 15px;
+}
+.navigtion_wrapper > .left_column > .icon i {
+  font-size: 2em;
+}
+.navigtion_wrapper > .left_column > .contact_hours_wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.navigtion_wrapper > .left_column > .contact_hours_wrapper > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+.links_wrapper > .nav_link a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+}
+/*Center column styles */
+.navigtion_wrapper > .center_column{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+.navigtion_wrapper > .center_column > .banner_image {
+    display: flex;
+    justify-content: center;
+
+}
+.navigtion_wrapper > .center_column > .banner_image img{
+    width: 216px; 
+    height: 100%;
+
+}
+.links_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links_wrapper > .nav_link{
+    width: 70px;
+    text-align: center;
+}
+.links_wrapper > .nav_link a{
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: seashell;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links_wrapper > .nav_link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+/* Right column styles */
+.navigtion_wrapper > .right_column{
+    display: flex;
+    align-items: center;
+}
+.navigtion_wrapper > .right_column > .address_wrapper{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+.navigtion_wrapper > .right_column > .address_wrapper a:hover{
+    color: #cea135;
+
+}
+.navigtion_wrapper > .right_column > .contact_icon{
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.navigtion_wrapper > .right_column > .contact_icon a{
+    color: #cbcbcb;
+}
+.navigtion_wrapper > .right_column > .contact_icon a:hover{
+    color: #cea135;
+}
+.navigtion_wrapper > .right_column > .address_wrapper a{
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 05s;
+    
+}
